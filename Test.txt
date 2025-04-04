@@ -1,0 +1,110 @@
+First Fit Decreasing(FFD)
+Lần 1: 
+{'filled_ratio': 0.13, 'trim_loss': 0.13972011527701286}//greedy của thầy 
+{'filled_ratio': 0.3, 'trim_loss': 0.7890174157705432}//random của thầy
+{'filled_ratio': 0.0, 'trim_loss': 1}//reset env
+{'filled_ratio': 0.23, 'trim_loss': 0.35994319302439803}//FFD của mình
+
+Lần 2: 
+{'filled_ratio': 0.14, 'trim_loss': 0.23711216916263486}
+{'filled_ratio': 0.8, 'trim_loss': 0.8421328085223765}
+{'filled_ratio': 0.0, 'trim_loss': 1}
+{'filled_ratio': 0.24, 'trim_loss': 0.09908817135826709}
+
+Lần 3: 
+{'filled_ratio': 0.06, 'trim_loss': 0.20456556502973167}
+{'filled_ratio': 0.95, 'trim_loss': 0.773424791395173}
+{'filled_ratio': 0.0, 'trim_loss': 1}
+{'filled_ratio': 0.15, 'trim_loss': 0.1213475693415744}
+
+Lần 4:
+{'filled_ratio': 0.12, 'trim_loss': 0.1190672081769858}
+{'filled_ratio': 0.91, 'trim_loss': 0.8319844458896666}
+{'filled_ratio': 0.0, 'trim_loss': 1}
+{'filled_ratio': 0.08, 'trim_loss': 0.06955315993216832}
+
+Lần 5:
+{'filled_ratio': 0.26, 'trim_loss': 0.11273073529112541}
+{'filled_ratio': 0.41, 'trim_loss': 0.8277084243224768}
+{'filled_ratio': 0.0, 'trim_loss': 1}
+{'filled_ratio': 0.06, 'trim_loss': 0.04942749908684119}//loop limit: giới hạn tại 200 lần lập nên chưa thể xuất ra kết quả cuối
+
+Lần 6:
+{'filled_ratio': 0.4, 'trim_loss': 0.18104021462651093}
+{'filled_ratio': 0.98, 'trim_loss': 0.7680284745406656}
+{'filled_ratio': 0.0, 'trim_loss': 1}
+{'filled_ratio': 0.45, 'trim_loss': 0.12344973643616361}//loop limit
+
+Lần 7:
+{'filled_ratio': 0.09, 'trim_loss': 0.2146556616466093}
+{'filled_ratio': 0.84, 'trim_loss': 0.8109956504415086}
+{'filled_ratio': 0.0, 'trim_loss': 1}
+{'filled_ratio': 0.24, 'trim_loss': 0.08345811140783206}//loop limit
+
+Lần 8: 
+{'filled_ratio': 0.25, 'trim_loss': 0.14285147638452486}
+{'filled_ratio': 0.8, 'trim_loss': 0.8006785422450928}
+{'filled_ratio': 0.0, 'trim_loss': 1}
+{'filled_ratio': 0.18, 'trim_loss': 0.20070946636176895}
+
+Lần 9: 
+{'filled_ratio': 0.41, 'trim_loss': 0.2505449400341346}
+{'filled_ratio': 1.0, 'trim_loss': 0.7211054215411881}
+{'filled_ratio': 0.0, 'trim_loss': 1}
+{'filled_ratio': 0.34, 'trim_loss': 0.13599865078976497}//loop limit
+
+
+Best fit decreasing(BFD)
+Lần 1:
+{'filled_ratio': 0.14, 'trim_loss': 0.16873487206682944}
+{'filled_ratio': 1.0, 'trim_loss': 0.6831653253940712}
+{'filled_ratio': 0.0, 'trim_loss': 1}
+{'filled_ratio': 0.15, 'trim_loss': 0.22322414267845783}
+
+Lần 2: 
+{'filled_ratio': 0.12, 'trim_loss': 0.36611767655046784}
+{'filled_ratio': 0.63, 'trim_loss': 0.874244044881906}
+{'filled_ratio': 0.0, 'trim_loss': 1}
+{'filled_ratio': 0.15, 'trim_loss': 0.20416864987951971}
+
+Lần 3:
+{'filled_ratio': 0.42, 'trim_loss': 0.22678319389241502}
+{'filled_ratio': 0.49, 'trim_loss': 0.8021680733744355}
+{'filled_ratio': 0.0, 'trim_loss': 1}
+{'filled_ratio': 0.25, 'trim_loss': 0.25988291211944553}//loop
+
+Lần 4:
+{'filled_ratio': 0.19, 'trim_loss': 0.12731739029594677}
+{'filled_ratio': 1.0, 'trim_loss': 0.6764762412674495}
+{'filled_ratio': 0.0, 'trim_loss': 1}
+{'filled_ratio': 0.29, 'trim_loss': 0.19681765379177862}
+
+Lần 5:
+{'filled_ratio': 0.12, 'trim_loss': 0.09283576892293978}
+{'filled_ratio': 0.87, 'trim_loss': 0.835830775693863}
+{'filled_ratio': 0.0, 'trim_loss': 1}
+{'filled_ratio': 0.46, 'trim_loss': 0.18193634788680085}
+
+Lần 6:
+{'filled_ratio': 0.17, 'trim_loss': 0.2601815999809699}
+{'filled_ratio': 0.9, 'trim_loss': 0.8670428042476357}
+{'filled_ratio': 0.0, 'trim_loss': 1}
+{'filled_ratio': 0.11, 'trim_loss': 0.20563593723687373}
+
+Lần 7:
+{'filled_ratio': 0.06, 'trim_loss': 0.26013883230639917}
+{'filled_ratio': 0.12, 'trim_loss': 0.8441593249576521}
+{'filled_ratio': 0.0, 'trim_loss': 1}
+{'filled_ratio': 0.26, 'trim_loss': 0.22389380339230233}
+
+Lần 8:
+{'filled_ratio': 0.15, 'trim_loss': 0.23298879967418187}
+{'filled_ratio': 0.65, 'trim_loss': 0.8302571798733087}
+{'filled_ratio': 0.0, 'trim_loss': 1}
+{'filled_ratio': 0.19, 'trim_loss': 0.27604664820900365}
+
+Lần 9:
+{'filled_ratio': 0.1, 'trim_loss': 0.16094381181537543}
+{'filled_ratio': 1.0, 'trim_loss': 0.7198023972076534}
+{'filled_ratio': 0.0, 'trim_loss': 1}
+{'filled_ratio': 0.44, 'trim_loss': 0.1822856033052794}//loop
